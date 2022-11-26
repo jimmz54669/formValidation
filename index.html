@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Formbs.css">
+    <title>Fishbool</title>
+    <link rel="icon" href="6422199.png" sizes="16x16 32x32" type="image/png">
+</head>
+<body>
+    <div class="head text-center mt-3">
+        <h1>Welcome to <a href="#" class="bi bi-facebook">Fishbool</a></h1>
+        <h5><i>A Fishbool for everybody!</i></h5>
+    </div>
+    <section class="col" id="section">
+        <div class="container mt-5 mx-5" id="sec1">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card-text">
+                        <div class="card-body" id="c1">
+                            <div class="row">
+                                <div class="col">
+                                    <h2>Log in <i class="bi bi-box-arrow-in-left" width="50" height="50"></i></h2>
+                                    <form class="needs-validation" novalidate>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="email" class="form-control my-3" id="email" placeholder="Enter email" required>
+                                                    <label for="email" class="form-label">Email <i class="bi bi-envelope-fill"></i></label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please enter a valid email or phone number.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="password" class="form-control my-3" id="password" placeholder="Enter password" required>
+                                                    <label for="password" class="form-label">Password <i class="bi bi-lock-fill"></i></label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Your password must contain between 4 and 60 characters.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="checkbox" class="form-check-input" id="check1" name="check" value="checkbox" required>
+                                                <label class="form-check-label" for="check1">Remember me</label>
+                                                <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Check this checkbox to continue.</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <a href="#">Forget password ?</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-secondary mt-3">Log in</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vr px-0 mt-2"></div>
+                <div class="col-5" id="sec2">
+                    <div class="card-text">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col" id="c2">
+                                    <h2>Sign up <i class="bi bi-box-arrow-in-up" width="50" height="50"></i></h2>
+                                    <h6><i>Become a Fishbooler to connect with everyone</i></h6>
+                                    <form class="needs-validation" novalidate>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="textbox" class="form-control" id="fname" placeholder="First name" required>
+                                                    <label for="firstname" class="form-label">First name</label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="textbox" class="form-control" id="lname" placeholder="Last name" required>
+                                                    <label for="lastname" class="form-label">Last name</label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                                    <label for="email" class="form-label">Email</label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                                                    <label for="password" class="form-label">Password</label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <h5>Gender</h5>
+                                                <select class="form-select" id="gensel" name="gensel" required>
+                                                    <option></option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                                <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Status</h5>
+                                                <select class="form-select" id="gensel" name="gensel" required>
+                                                    <option></option>
+                                                    <option>Single</option>
+                                                    <option>Married</option>
+                                                </select>
+                                                <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <h5>Birthday</h5>
+                                                <input type="date" class="form-control" id="bday" name="Bday" required>
+                                                <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input type="textbox" class="form-control" id="address" placeholder="Enter address" required>
+                                                    <label for="address" class="form-label">Address</label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Please fill in</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="check1" name="check" required>
+                                                    <label class="form-check-label" for="check1">Agree to <a href="#">terms</a> and <a href="#">conditions</a></label>
+                                                    <div class="valid-feedback"><i class="bi bi-hand-thumbs-up"></i></div>
+                                                    <div class="invalid-feedback"><i class="bi bi-exclamation-triangle"></i>Check this checkbox to continue.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-secondary mt-3">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <hr>
+        <section class="meta" id="ff">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#" target="_blank" class="ga-footer">Terms of Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" target="_blank" class="ga-footer">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" target="_blank" class="ga-footer">Content Policy</a></li>
+          </ul>
+          <div>
+            <select name="language" class="js-language-switch ga-language-switch language-switch" id="language-switch"><option value="?hl=af">Afrikaans‎</option><option value="?hl=am">Amharic - አማርኛ‎</option><option value="?hl=ar">Arabic - العربية‎</option><option value="?hl=eu">Basque - euskara‎</option><option value="?hl=bn">Bengali - বাংলা‎</option><option value="?hl=bg">Bulgarian - български‎</option><option value="?hl=ca">Catalan - ‪Català‬‎</option><option value="?hl=zh-HK">Chinese (Hong Kong) - 中文（香港)‎</option><option value="?hl=zh-CN">Chinese (Simplified) - ‪简体中文‬‎</option><option value="?hl=zh-TW">Chinese (Traditional) - 繁體中文‎</option><option value="?hl=hr">Croatian - Hrvatski‎</option><option value="?hl=cs">Czech - Čeština‎</option><option value="?hl=da">Danish - Dansk‎</option><option value="?hl=nl">Dutch - Nederlands‎</option><option value="?hl=en" selected="" disabled="">English</option><option value="?hl=en-GB">English (United Kingdom)‎</option><option value="?hl=et">Estonian - eesti‎</option><option value="?hl=fil">Filipino‎</option><option value="?hl=fi">Finnish - Suomi‎</option><option value="?hl=fr-CA">French (Canada) - Français (Canada)‎</option><option value="?hl=fr">French (France) - Français (France)‎</option><option value="?hl=gl">Galician - galego‎</option><option value="?hl=de">German - Deutsch‎</option><option value="?hl=el">Greek - Ελληνικά‎</option><option value="?hl=gu">Gujarati - ગુજરાતી‎</option><option value="?hl=iw">Hebrew - עברית‎</option><option value="?hl=hi">Hindi - हिन्दी‎</option><option value="?hl=hu">Hungarian - magyar‎</option><option value="?hl=is">Icelandic - íslenska‎</option><option value="?hl=id">Indonesian - Indonesia‎</option><option value="?hl=it">Italian - Italiano‎</option><option value="?hl=ja">Japanese - 日本語‎</option><option value="?hl=kn">Kannada - ಕನ್ನಡ‎</option><option value="?hl=ko">Korean - 한국어‎</option><option value="?hl=lv">Latvian - latviešu‎</option><option value="?hl=lt">Lithuanian - lietuvių‎</option><option value="?hl=ms">Malay - Bahasa Melayu‎</option><option value="?hl=ml">Malayalam - മലയാളം‎</option><option value="?hl=mr">Marathi - मराठी‎</option><option value="?hl=no">Norwegian - norsk‎</option><option value="?hl=fa">Persian - فارسی‎</option><option value="?hl=pl">Polish - polski‎</option><option value="?hl=pt-BR">Portuguese (Brazil) - Português (Brasil)‎</option><option value="?hl=pt-PT">Portuguese (Portugal) - português (Portugal)‎</option><option value="?hl=ro">Romanian - română‎</option><option value="?hl=ru">Russian - Русский‎</option><option value="?hl=sr">Serbian - српски‎</option><option value="?hl=sk">Slovak - Slovenčina‎</option><option value="?hl=sl">Slovenian - slovenščina‎</option><option value="?hl=es-419">Spanish (Latin America) - Español (Latinoamérica)‎</option><option value="?hl=es">Spanish (Spain) - Español (España)‎</option><option value="?hl=sw">Swahili - Kiswahili‎</option><option value="?hl=sv">Swedish - Svenska‎</option><option value="?hl=ta">Tamil - தமிழ்‎</option><option value="?hl=te">Telugu - తెలుగు‎</option><option value="?hl=th">Thai - ไทย‎</option><option value="?hl=tr">Turkish - Türkçe‎</option><option value="?hl=uk">Ukrainian - Українська‎</option><option value="?hl=ur">Urdu - اردو‎</option><option value="?hl=vi">Vietnamese - Tiếng Việt‎</option><option value="?hl=zu">Zulu - isiZulu‎</option></select>
+          </div>
+        </section>
+      </footer>
+</body>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+</html>
